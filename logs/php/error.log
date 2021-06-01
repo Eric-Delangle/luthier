@@ -1,0 +1,115 @@
+[01-Jun-2021 12:25:13 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, string given in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:25:13 UTC] PHP Stack trace:
+[01-Jun-2021 12:25:13 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:25:13 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:25:13 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:25:13 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:25:13 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:25:13 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:25:13 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:25:13 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:25:13 UTC] PHP   9. array_map() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:25:13 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:25:13 UTC] PHP Stack trace:
+[01-Jun-2021 12:25:13 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:25:13 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:25:13 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:25:13 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:25:13 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:25:13 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:25:13 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:25:13 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:25:13 UTC] PHP   9. implode() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:25:13 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' O' at line 1 pour la requête SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN () AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 40 faite par do_action('wp_ajax_query-attachments'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_query_attachments, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[01-Jun-2021 12:25:55 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, string given in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:25:55 UTC] PHP Stack trace:
+[01-Jun-2021 12:25:55 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:25:55 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:25:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:25:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:25:55 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:25:55 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:25:55 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:25:55 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:25:55 UTC] PHP   9. array_map() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:25:55 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:25:55 UTC] PHP Stack trace:
+[01-Jun-2021 12:25:55 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:25:55 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:25:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:25:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:25:55 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:25:55 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:25:55 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:25:55 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:25:55 UTC] PHP   9. implode() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:25:55 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' O' at line 1 pour la requête SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN () AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 40 faite par do_action('wp_ajax_query-attachments'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_query_attachments, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[01-Jun-2021 12:26:30 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, string given in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:26:30 UTC] PHP Stack trace:
+[01-Jun-2021 12:26:30 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:26:30 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:26:30 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:26:30 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:26:30 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:26:30 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:26:30 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:26:30 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:26:30 UTC] PHP   9. array_map() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:26:30 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:26:30 UTC] PHP Stack trace:
+[01-Jun-2021 12:26:30 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:26:30 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:26:30 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:26:30 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:26:30 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:26:30 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:26:30 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:26:30 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:26:30 UTC] PHP   9. implode() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:26:30 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' O' at line 1 pour la requête SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN () AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 40 faite par do_action('wp_ajax_query-attachments'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_query_attachments, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[01-Jun-2021 12:26:36 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, string given in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:26:36 UTC] PHP Stack trace:
+[01-Jun-2021 12:26:36 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:26:36 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:26:36 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:26:36 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:26:36 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:26:36 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:26:36 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:26:36 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:26:36 UTC] PHP   9. array_map() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:26:36 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:26:36 UTC] PHP Stack trace:
+[01-Jun-2021 12:26:36 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:26:36 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:26:36 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:26:36 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:26:36 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:26:36 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:26:36 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:26:36 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:26:36 UTC] PHP   9. implode() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:26:36 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' O' at line 1 pour la requête SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN () AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 40 faite par do_action('wp_ajax_query-attachments'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_query_attachments, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[01-Jun-2021 12:27:18 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, string given in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:27:18 UTC] PHP Stack trace:
+[01-Jun-2021 12:27:18 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:27:18 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:27:18 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:27:18 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:27:18 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:27:18 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:27:18 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:27:18 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:27:18 UTC] PHP   9. array_map() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:27:18 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php on line 2093
+[01-Jun-2021 12:27:18 UTC] PHP Stack trace:
+[01-Jun-2021 12:27:18 UTC] PHP   1. {main}() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:0
+[01-Jun-2021 12:27:18 UTC] PHP   2. do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\admin-ajax.php:187
+[01-Jun-2021 12:27:18 UTC] PHP   3. WP_Hook->do_action() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\plugin.php:484
+[01-Jun-2021 12:27:18 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 12:27:18 UTC] PHP   5. wp_ajax_query_attachments() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 12:27:18 UTC] PHP   6. WP_Query->__construct() C:\Users\polvu\Local Sites\luthier\app\public\wp-admin\includes\ajax-actions.php:2991
+[01-Jun-2021 12:27:18 UTC] PHP   7. WP_Query->query() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3576
+[01-Jun-2021 12:27:18 UTC] PHP   8. WP_Query->get_posts() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:3465
+[01-Jun-2021 12:27:18 UTC] PHP   9. implode() C:\Users\polvu\Local Sites\luthier\app\public\wp-includes\class-wp-query.php:2093
+[01-Jun-2021 12:27:18 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' O' at line 1 pour la requête SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN () AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 40 faite par do_action('wp_ajax_query-attachments'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_query_attachments, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
