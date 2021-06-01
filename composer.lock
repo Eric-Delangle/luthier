@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Eric-Delangle 
-/
-wordpress-heroku
-8
-215220
-Code
-Issues
-6
-Pull requests
-4
-Actions
-Projects
-Wiki
-Security
-Insights
-wordpress-heroku/composer.lock
-@PhilippHeuer
-PhilippHeuer chore(wp): update to wordpress 4.9.2
-Latest commit 742e075 on 17 Jan 2018
- History
- 1 contributor
-3839 lines (3839 sloc)  132 KB
-  
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
@@ -3868,16 +3837,3 @@ Latest commit 742e075 on 17 Jan 2018
         "ext-gettext": "1.0"
     }
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
