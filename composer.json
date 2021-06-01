@@ -78,7 +78,7 @@
         "vendor/bin/phpcs"
       ],
       "post-install-cmd": [
-        "chmod -R 777 app/public/"
+        "composer require symfony/apache-pack"
     ]
     }
   }
